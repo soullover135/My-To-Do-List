@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="Storage.js"></script>
+	<link rel="stylesheet" href="StorageStyle.css">
+</head>
+		<table class="table table-hover table-secondary ">
+		  <thead>
+			<tr>
+					<th scope="col"><a href="add notes.html" class="font-weight-bold text-info">+</a></th>
+					<th scope="col"></th>
+					<th scope="col"></th>
+					<th scope="col"></th>
+					<th scope="col" class = "font-weight-bold">To Do</th>
+					<th scope="col"></th>
+					<th scope="col"><a href="add notes.html" class="text-info font-weight-bold">list</a></th>
+			</tr>
+		  </thead>
+		</table>
+		
+<body onload="doShowAll()" style="background-image: url('reminders/backgrounds.jpg')" class="background-img-fluid " alt="Responsive background-image" >
+<form name=ShoppingList>
+<div class="container">
+
+	<center>
+			<font color="black">
+			<br><br><br>
+			<center><table class="table table-bordered " id=list >
+			</table>
+			</center>
+			<p>
+				<br/><label><input type=button value="Clear" onclick="ClearAll()"></font>
+					<i>*Remove all Items*</i></label>
+			</p>
+		
+	</center>
+</div>	
+	</form>
+		 <script src="jquery/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</html>
+  
+	

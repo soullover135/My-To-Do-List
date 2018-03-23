@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="Storage.js"></script>
+	<link rel="stylesheet" href="StorageStyle.css">
+	
+</head>
+		<table class="table table-hover table-secondary ">
+		  <thead>
+			<tr>
+					<th scope="col"><a href="index.html" class="text-info">Home</a></th>
+					<th scope="col"></th>
+					<th scope="col"></th>
+					<th scope="col"></th>
+					<th scope="col" class = "font-weight-bold">To Do</th>
+					<th scope="col"></th>
+					<th scope="col"><a href="list.html" class="text-info">List</a></th>
+			</tr>
+		  </thead>
+		</table>
+		
+<body>
+	
+	<form name=ShoppingList>
+		<div id="PlayArea">	
+		
+				<div class="container">
+					
+					
+					<br/><td><div class="text-info" ><h4><b>Subject</b></h4></div>
+					<input type="text" name=name placeholder = "Enter subject" style="height:40px;"> <br/><br/>
+										<br/><td><div class="text-info"><h4><b>Description</b></h4></div>
+				<br/><textarea class="form-control " id="exampleFormControlTextarea1" rows="8" cols = "20" name=data placeholder="type description here..." ></textarea>
+				<div class="row">
+				<div class="col-4"></div>
+				<div class="col-4">
+				<br>
+				
+				<button type="submit" class="btn btn-info btn-sm" onclick= "SaveItem()">Save</button>
+				<button type="reset" class="btn btn-danger btn-sm">Cancel</button>		</div>	 		
+				<div class="col-4"></div>
+				
+				</div>
+				</div>
+		</div>
+	</form>
+</html>
+  
+	
