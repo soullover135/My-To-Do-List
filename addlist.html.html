@@ -28,9 +28,11 @@
 		
 				<div class="container">
 					
-					
-					<br/><td><div class="text-info" ><h4><b>Subject</b></h4></div>
-					<input type="text" name=name placeholder = "Enter subject" style="height:40px;"> <br/><br/>
+				<label for="validationDefault04"><div class="text-info" ><b>Subject</b></div></label>
+				      <input type="text" class="form-control" name=name id="validationDefault04" placeholder="Enter subject" required>
+				      <div class="invalid-feedback">
+				       Please provide a subject.
+				      </div>
 										<br/><td><div class="text-info"><h4><b>Description</b></h4></div>
 				<br/><textarea class="form-control " id="exampleFormControlTextarea1" rows="8" cols = "20" name=data placeholder="type description here..." ></textarea>
 				<div class="row">
